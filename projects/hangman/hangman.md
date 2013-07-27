@@ -9,6 +9,7 @@ Hangman game written in Python, PyGTK.
 
 ### Downloads
 GitHub master [tar.gz](https://github.com/johncheetham/hangman/tarball/master)
+
 GitHub master [.zip](https://github.com/johncheetham/hangman/zipball/master)
 
 [View releases](https://github.com/johncheetham/hangman/releases)
