@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+<head>
+<title>Samuel Help</title>
+<link href="samuelhelp.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+</head>
+
+<body>
+<p>
+Version 0.1.1 - 30th October 2009
+</p>
+<p class="header">Samuel Online Help File</p>
+<h2>Intro</h2>
+<p>
+There are many draughts variants. Samuel plays the version known as English draughts (also called American checkers).<br />
+</p>
+<h2>Board Numbering System</h2>
+<p>
+There is a standard numbering system where the squares are numbered from 1 to 32 as shown in the images below.
+These numbers are used to show moves in the game information panel. They are also used when loading/saving games
+in the standard format.<br />
+</p>
+<p class="centeredImage">
+<img src="number_system.png" alt="Draughts numbering system image" /> 
+<img src="number_system_flipped.png" alt="Draughts numbering system image flipped" /> <br />
+</p>
+<h2>Playing the Game</h2>
+<p>
+<img src="Sam2.png" alt="Samuel Screen shot" /><br />
+<br />The image above illustrates the various areas.
+</p>
+<h2>Setting the Players</h2>
+<p>
+Through the Options menu bar option you can set up the computer player.<br /><br />
+The options are:
+</p>
+<ul class="bullets"> 
+    <li>computer plays white - human player plays red against the computer</li>
+    <li>computer plays red - human player plays white against the computer</li>
+    <li>computer plays white and red - computer plays against itself</li> 
+    <li>computer off - human plays against him/her self</li>    
+</ul>
+<p>
+If you are playing as white against the computer you can enable the 'flip the board' feature so that
+the white pieces are at the bottom of the board.
+</p>
+<h2>Setting the Computers Level of Play</h2>
+<p>
+The computers skill level depends on its search depth and time limit.<br />
+It can use a search depth between 1 (weakest level of play) and 52 (strongest level of play).
+<br /><br />
+There are 3 preset skill levels:<br />
+</p>
+<ul class="bullets"> 
+    <li>Beginner (search depth 2)</li>
+    <li>Advanced (search depth 8)</li>
+    <li>Expert   (search depth 52 time limited)</li>
+</ul>
+<p>
+There is also a user-defined skill level which allows you to set a search depth between 1 and 52.
+To set the lowest level use user-defined level and set the search depth to 1.
+When using a high search depth the computer will take a long time to make its move. You can set a time limit to force it to
+move within a certain time.
+<br />
+</p>
+<h2>Position Edit</h2>
+<p>
+Go into position edit to add/remove pieces from the board and to change the side to move.
+You can press the 'delete' key to remove all pieces and start with an empty board.
+</p>
+<h2>Change the Board Size</h2> 
+<p>
+To make the board bigger hold down CTRL and + keys.<br />
+To make the board smaller hold down CTRL and - keys.<br />
+To reset the board to normal size press CTRL and 0 keys.<br />
+</p>
+<h2>Information Panel</h2>
+<p>
+<img src="panel.png" alt="Information Panel image" /><br />
+The information panel displays details of the computers move.<br /><br />
+This example indicates that:
+</p>
+<ul class="bullets">
+<li>there are 12 red pieces and 12 white pieces on the board</li>
+<li>the skill level is set to expert</li>
+<li>the computer is searching. i.e. still thinking about its move</li>
+<li>the search depth is 20/30</li>
+<li>the current best value from the evaluation function is -8</li>
+<li>the current best move is from square 22 to square 18</li>
+<li>the thinking time taken so far is 8.64 seconds</li>
+<li>the number of KNodes (positions) searched so far is 54007</li>
+<li>the search speed is 6250 KNodes (positions) per second</li>
+</ul>
+<p>
+You can turn it on/off through the options on the menu bar.
+</p> 
+<h2>Status Bar</h2> 
+<p>
+The Status bar displays whose turn it is to move.<br />
+You can turn it on/off through the options on the menu bar. 
+</p>
+<h2>Loading/Saving Games</h2>
+<p>
+Games can be loaded/saved using the File option on the menu bar.
+Games are saved in the standard pdn format. The files will be saved with a .pdn extension. 
+pdn files include the move history and you can rewind the game with the game review buttons.
+<br />You can also copy/paste the game to/from the clipboard in the standard fen and pdn formats.
+You can load games saved by other programs if they are in the standard format.
+</p>
+<h2>Summary of keyboard commands</h2>
+<table border="1" cellpadding="4" cellspacing="0">
+<tr><td align="center">Keys</td><td>Function</td></tr>
+<tr><td align="center">CTRL+N</td><td>New Game</td></tr>
+<tr><td align="center">CTRL+O</td><td>Load Game</td></tr>
+<tr><td align="center">CTRL+S</td><td>Save Game</td></tr>
+<tr><td align="center">CTRL+Q</td><td>Quit Game</td></tr>
+<tr><td align="center">CTRL+H</td><td>Display this online Help Screen</td></tr>
+<tr><td align="center">m</td><td>Move Now - press this to make the computer move immediately<br />when it's taking a long time thinking</td></tr>
+<tr><td align="center">CTRL+C</td><td>Copy game to clipboard (in PDN format)</td></tr>
+<tr><td align="center">CTRL+V</td><td>Paste game from clipboard (in PDN format)</td></tr>
+<tr><td align="center">CTRL++</td><td>Increase the board size</td></tr>
+<tr><td align="center">CTRL+-</td><td>Decrease the board size</td></tr>
+<tr><td align="center">CTRL+0</td><td>Reset board size to default size</td></tr>
+<tr><td align="center">g</td><td>Same as the 'Go' button. Its main use is to start the game (make the computer move)<br /> when it's stopped.</td></tr>
+<tr><td align="center">delete</td><td>Clear the board when in position edit mode </td></tr>
+<tr><td align="center">r</td><td>Retract last move</td></tr>
+<tr><td align="center">[</td><td>rewind 1 move</td></tr>
+<tr><td align="center">]</td><td>forward 1 move</td></tr>
+<tr><td align="center">{</td><td>rewind to start of game</td></tr>
+<tr><td align="center">}</td><td>forward to end of game</td></tr>
+<tr><td align="center">3</td><td> Used for opening book. See below..</td></tr>
+<tr><td align="center">2</td><td> Used for opening book. See below.</td></tr>
+<tr><td align="center">4</td><td> Used for opening book. See below.</td></tr>
+<tr><td align="center">6</td><td> Used for opening book. See below.</td></tr>
+<tr><td align="center">K</td><td> Used for opening book. See below.</td></tr>
+<tr><td align="center">S</td><td> Used for opening book. See below.</td></tr>
+</table>
+<h2>Opening Book</h2>
+<p>
+The file opening.gbk contains moves for the opening book.
+<br /> It comes from guicheckers pre-seeded with opening moves.
+<br /> 
+<br /> You can modify it with these commands: 
+</p>
+<ul class="bullets"> 
+    <li>'3' - Add Current Board position / adjust towards '0'</li>
+    <li>'2' - Add/Adjust to being good for red</li>
+    <li>'4' - Add/Adjust to being good for white</li>
+    <li>'6' - Remove Position</li>
+    <li>'K' - Clear Opening Book in memory</li>
+    <li>'S' - Save Opening Book</li>
+</ul>
+<p>
+When saving the opening book is saved to ~/.samuel/opening.gbk.
+When loading at startup it's loaded first from ~/.samuel/opening.gbk.
+If not found there it will be loaded from the same directory as the program.
+After a standard install the program directory will be read only which is why
+'save' always saves to ~/.samuel/opening.gbk.
+<br /> 
+<br /> Most people will not want to modify the opening book.
+</p>
+<h2>Endgame Databases</h2>
+<p>
+These are contained in the files 2pc.cdb, 3pc.cdb and 4pc.cdb.<br />
+They can be created by running the program genalldatabases.
+</p>
+<h2>Acknowledgements</h2>
+<p>
+Samuel is based on <a href="http://www.3dkingdoms.com/checkers.htm">guicheckers</a>.<br />
+</p>
+</body>
+</html>
+

@@ -1,0 +1,90 @@
+body {
+   margin: 15px;
+   background-color: #F5F5DC;
+}
+
+
+
+
+.content {
+   width: 100%;
+}
+
+.content_mid {
+   background-color: white;
+   text-align: left;
+   font-family: Verdana, serif; 
+   vertical-align: top;
+   font-size: 10pt;
+   padding: 5px
+}
+
+.content_cell {
+}
+
+p {
+   padding: 0px;
+   margin: 0px;
+}
+
+.maintext { 
+   /* font should end with a generic font - serif, sans-serif or monospace  */
+   font-family: Verdana, serif;    
+   font-size: 12pt;
+   padding: 5px;
+   color: white; 
+}
+
+li {
+   padding: 3px;
+}
+
+img {
+   padding: 5px;
+   margin: 5px;
+   border: 0px;
+}
+
+.header {   
+   font-size: 16pt;
+   /*color: navy;*/
+   font-family: Verdana, serif; 
+   padding: 5px;
+   /*border-bottom: 1px solid navy;*/
+   font-weight: normal;
+   text-align:center; 
+}
+
+.subheader {
+   font-size: 16pt;
+   color: navy;
+   font-family: Verdana, serif; 
+   padding: 5px;
+   border-bottom: 1px solid navy;
+   font-weight: normal;
+   padding-top: 20px;
+}
+
+img.izq 
+{
+float:left;
+/* border:1px dotted black; */
+/* margin:0px 0px 15px 20px; */
+/* margin:top right bot left */
+margin:7px 7px 7px 7px;
+}
+
+.centeredImage
+{    
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:0px;
+}
+
+.bullets {
+   font-family: Verdana, serif;    
+   font-size: 12pt;
+   /*padding: 5px;*/
+}
+
