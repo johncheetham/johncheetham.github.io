@@ -3,7 +3,7 @@ title: Breakout
 layout: default
 ---
 
-<table class="content" border="0" cellpadding="0" cellspacing="0">
+<table class="content">
     <tbody>
         <tr>
             <td class="navtop_left"></td>

@@ -31,6 +31,7 @@ body {
    font-weight: bolder;
    font-style: italic;
    padding-left: 20px;
+   padding: 0px;
 }
 
 .logo_main {
@@ -78,7 +79,8 @@ body {
 .logo_right {
    width: 12px;
    height: 100px;
-   background-image: url(images/logor.png)
+   background-image: url(images/logor.png);
+   padding: 0px;
 }
 
 .navtop_left {
@@ -204,7 +206,7 @@ body {
 }
 
 .nav_cell {
-   width: 220px;
+   width: 160px;
    padding-right: 15px
 }
 

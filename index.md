@@ -3,7 +3,7 @@ title: Home
 layout: default
 ---
 
-<table class="content" border="0" cellpadding="0" cellspacing="0">
+<table class="content">
     <tbody>
         <tr>
             <td class="navtop_left"></td>
@@ -113,7 +113,7 @@ layout: default
                                 <a href="projects/jcplayer/index.html"><img src="/images/Screenshot-JCPlayer.png" alt="JCPlayer screenshot" class="izq" /></a>
 	                            <br />
                                 JCPlayer is written using the java swing classes and will play flac, mp3, ogg and wav files.<br /><br />
-	                            Click  <a href="projects/jcplayer/index.html">here</a> to go to the JCPlayer page.	    
+	                            Click  <a href="projects/jcplayer/index.html">here</a> to go to the JCPlayer page.
                             </p>
                         </td>
                     </tr>
