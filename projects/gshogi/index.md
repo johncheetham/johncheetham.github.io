@@ -49,7 +49,7 @@ layout: default
                         <a href="https://github.com/johncheetham/gshogi/zipball/master">.zip</a><br /><br />
 	                Download Last Release: <a href="https://github.com/johncheetham/gshogi/archive/v0.5.1.tar.gz">.tar.gz</a> &nbsp;&nbsp;
                         <a href="https://github.com/johncheetham/gshogi/archive/v0.5.1.zip">.zip</a><br /><br />
-                    Download windows version <a href="https://drive.google.com/open?id=0B91ZDRXsSFY9a3Zrckc5WXRjcms">here</a> <br /><br />      
+                    Download windows version <a href="https://drive.google.com/drive/folders/0B91ZDRXsSFY9a3Zrckc5WXRjcms?resourcekey=0-HyLnXZOo_P5FQW2NB8qqlg&usp=sharing">here</a> <br /><br />      
                     <a href='https://github.com/johncheetham/gshogi'>View project</a> on GitHub<br /><br />
                     <a href='https://pypi.org/project/gshogi/#files'>View files</a> on <a href='https://pypi.org'>The Python Package Index (PyPI)</a><br /><br />               
                 </p>       
